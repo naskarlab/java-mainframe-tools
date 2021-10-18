@@ -1,0 +1,16 @@
+package com.naskar.jmft.cics;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface PICX {
+
+	int value();
+	
+	Encoding encoding() default Encoding.ALPHA;
+
+}
