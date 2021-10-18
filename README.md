@@ -89,6 +89,10 @@ logger.info(job1.getSpool());
 	    <id>jitpack.io</id>
 	    <url>https://jitpack.io</url>
 	</repository>
+	<repository>
+	    <id>gitlab-maven</id>
+	    <url>https://gitlab.com/api/v4/projects/23719062/packages/maven</url>
+	</repository>
 </repositories>
 
 <dependency>
